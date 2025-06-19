@@ -10,9 +10,3 @@ variable "network_name" {
 variable "server_name" {
   type        = string
 }
-
-variable "storage_path" {
-  description = "Ruta de almacenamiento para la base de datos"
-  type        = string
-  default     = "/storage"
-}
